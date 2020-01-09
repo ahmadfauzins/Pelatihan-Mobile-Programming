@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
+
+
+        <ImageView
+            android:layout_marginTop="80dp"
+            android:id="@+id/imageView"
+            android:layout_width="115dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/polban" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#0E00D6"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:text="INFORMASI POLBAN APPS"
+            android:fontFamily="@font/robotobold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="170dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="38dp"-->
+            <!--android:text="PELATIHAN DIGITAL TALENT SCHOLARSHIP 2019\n-->
+<!--KEMENTRIAN KOMUNIKASI INFORMATIKA RI"-->
+            <!--android:textAlignment="center" />-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">POLBAN AHMADFAUZI</string>
+    <string name="klik">KLIK FOTO \n UNTUK INFORMASI DETAIL</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnRegis">REGISTER</string>
+    <string name="title_activity_registrasi">RegistrasiActivity</string>
+    <string name="tvUsername">Username</string>
+    <string name="tvPassword">Password</string>
+    <string name="tvEmail">Email</string>
+    <string name="tvNama">Nama</string>
+    <string name="tvAsalSkl">Asal Sekolah</string>
+    <string name="tvAlamat">Alamat</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+
+
+</resources>
